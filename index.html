@@ -15,7 +15,7 @@
                 el: "#vanta",
                 mouseControls: true,
                 touchControls: true,
-                gyroControls: false,
+                gyroControls: true,
                 minHeight: 200.00,
                 minWidth: 200.00,
                 scale: 1.00,
@@ -25,9 +25,15 @@
                 separation: 100.00,
                 alignment: 100.00,
                 cohesion: 100.00,
-                quantity: 1.00,
+                quantity: 1.50,
                 backgroundAlpha: 0.00
             })
+
+            setTimeout(() => {
+                const main = document.querySelector('main');
+                main.style.opacity = '1';
+                main.style.filter = 'blur(0px)'
+            }, 1000)
         })
     </script>
 </head>

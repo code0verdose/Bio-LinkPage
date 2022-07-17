@@ -6,6 +6,13 @@ body, html {
     box-sizing: border-box;
 }
 
+main {
+    position: relative;
+    opacity: 0;
+    filter: blur(10px);
+    transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+}
+
 body {
     background: url(../img/bg.webp) no-repeat center center fixed;
     background-size: cover;
