@@ -14,7 +14,17 @@ main {
 }
 
 body {
-    background: url(../img/bg.jpg) no-repeat center center fixed;
+    background-color: #643c9f;
+    background-image: url("../img/bg-big.jpg");
+    background-image: -webkit-image-set(
+            url("../img/bg-small.jpg") 1x,
+            url("../img/bg-big.jpg") 2x);
+    background-image: image-set(
+            url("../img/bg-small.jpg") 1x,
+            url("../img/bg-big.jpg") 2x);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     image-rendering: pixelated;
     image-rendering: -webkit-crisp-edges;
     image-rendering: -moz-crisp-edges;
