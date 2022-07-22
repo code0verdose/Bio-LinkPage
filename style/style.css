@@ -71,8 +71,8 @@ header > h1 {
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(160%);
 }
 
-header > p {
-    box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;
+header > strong {
+    margin: 1em 0;
 }
 
 ul {
