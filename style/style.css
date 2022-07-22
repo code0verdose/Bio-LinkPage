@@ -15,13 +15,13 @@ main {
 
 body {
     background-color: #643c9f;
-    background-image: url("../img/bg-big.jpg");
+    background-image: url("../img/bg-big.webp");
     background-image: -webkit-image-set(
-            url("../img/bg-small.jpg") 1x,
-            url("../img/bg-big.jpg") 2x);
+            url("../img/bg-small.webp") 1x,
+            url("../img/bg-big.webp") 2x);
     background-image: image-set(
-            url("../img/bg-small.jpg") 1x,
-            url("../img/bg-big.jpg") 2x);
+            url("../img/bg-small.webp") 1x,
+            url("../img/bg-big.webp") 2x);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -69,6 +69,10 @@ header > h1 {
     border: 1px solid #fffa;
     backdrop-filter: blur(10px) saturate(460%) contrast(160%);
     -webkit-backdrop-filter: blur(10px) saturate(160%) contrast(160%);
+}
+
+header > p {
+    box-shadow: rgb(28 32 93 / 24%) 0 2px 8px 0;
 }
 
 ul {
